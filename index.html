@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouwspel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar voor blokken en knoppen -->
+    <div class="sidebar">
+      <h2>Blokken</h2>
+      <div class="blocks">
+        <div class="block" id="grass"></div>
+        <div class="block" id="stone"></div>
+        <div class="block" id="wood"></div>
+        <div class="block" id="brick"></div> <!-- Baksteen -->
+        <div class="block" id="plastic"></div> <!-- Plastic -->
+        <div class="block" id="gravel"></div> <!-- Gravel -->
+        <div class="block" id="diamond"></div> <!-- Diamant -->
+        <div class="block" id="neon"></div> <!-- Neon -->
+        <div class="block" id="red"></div> <!-- Rood -->
+        <div class="block" id="orange"></div> <!-- Oranje -->
+        <div class="block" id="yellow"></div> <!-- Geel -->
+        <div class="block" id="green"></div> <!-- Groen -->
+        <div class="block" id="blue"></div> <!-- Blauw -->
+        <div class="block" id="indigo"></div> <!-- Indigo -->
+        <div class="block" id="violet"></div> <!-- Violet -->
+      </div>
+      
+      <h3>Tools</h3>
+      <button id="expandField">Vergroot Grond</button>
+      <button id="shrinkField">Verklein Grond</button> <!-- Verklein knop -->
+      <button id="enableEraser">Gum Activeren</button> <!-- Gum knop -->
+    </div>
+
+    <!-- Leeg veld om blokken te plaatsen -->
+    <div class="game-area" id="game-area">
+      <!-- Hier worden de blokken geplaatst -->
+    </div>
+  </div>
+
+  <!-- Instellingenbalk rechtsboven -->
+  <div class="settings-bar" id="settingsBar">
+    <button id="resetGame">Reset Grond</button>
+    <input type="range" id="brightness" min="0" max="100" value="100" />
+    <button id="settingsButton">⚙️</button>
+  </div>
+  
+  <!-- Instellingen menu -->
+  <div class="settings-menu" id="settingsMenu">
+    <button id="closeSettings">Sluit Instellingen</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
