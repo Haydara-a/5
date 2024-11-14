@@ -39,39 +39,6 @@ body {
   border-radius: 4px;
 }
 
-#grass {
-  background-color: #7CFC00; /* Grasblok */
-}
-
-#stone {
-  background-color: #808080; /* Steenblok */
-}
-
-#wood {
-  background-color: #8B4513; /* Houten blok */
-}
-
-#brick {
-  background-color: #B22222; /* Baksteenblok */
-}
-
-#plastic {
-  background-color: #00FFFF; /* Plasticblok */
-  border: 2px dashed #007B7B;
-}
-
-#gravel {
-  background-color: #A9A9A9; /* Gravelblok */
-}
-
-#diamond {
-  background-color: #B9F2FF; /* Diamantblok */
-}
-
-#neon {
-  background-color: #39FF14; /* Neonblok */
-}
-
 #red {
   background-color: #FF0000; /* Rood */
 }
@@ -98,6 +65,27 @@ body {
 
 #violet {
   background-color: #8A2BE2; /* Violet */
+}
+
+#plastic {
+  background-color: #00FFFF; /* Plasticblok */
+  border: 2px dashed #007B7B;
+}
+
+#brick {
+  background-color: #B22222; /* Baksteenblok */
+}
+
+#gravel {
+  background-color: #A9A9A9; /* Gravelblok */
+}
+
+#diamond {
+  background-color: #B9F2FF; /* Diamantblok */
+}
+
+#neon {
+  background-color: #39FF14; /* Neonblok */
 }
 
 button {
